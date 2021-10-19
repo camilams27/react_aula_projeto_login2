@@ -1,0 +1,50 @@
+.container-principal{
+    height: 100vh; width: 100vw;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+form{
+    display: flex; flex-direction: row;
+    background-color: white;
+    padding: 5%; border-radius: 10px;
+    width: 700px;
+    align-items: center; justify-content: center;
+}
+.imagem{
+    height: 25vh;
+}
+
+input{
+    border: none; outline: none;
+    margin-left: 5%;
+    width: 200px; background-color: #E6E6E6;
+    border-radius: 20px;
+}
+
+.email, .senha{
+    margin-left: 5%;  display: flex;
+    background-color: #E6E6E6;
+    padding: 5%; border-radius: 20px;
+}
+.senha{
+    margin-top: 10%; 
+}
+.botao{
+    margin-top: 10%;
+    width: 200px; height: 40px;
+    border: none; border-radius: 20px;
+    background-color: #7DBF5E; color: white; font-weight: bold;
+}
+
+p{
+    color: #8a8888;
+}
+.esqueceu, .icone-seta, .botao{
+    cursor: pointer;
+}
+
+.container-right{
+    margin-left: 10%;
+}
+
