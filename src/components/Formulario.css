@@ -35,6 +35,11 @@ input{
     width: 200px; height: 40px;
     border: none; border-radius: 20px;
     background-color: #7DBF5E; color: white; font-weight: bold;
+    font-size: 20px;
+}
+.botao:hover{
+    transition: 2s;
+    border-bottom: 3px solid darkgreen;
 }
 
 p{
